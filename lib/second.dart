@@ -21,18 +21,14 @@ class SecondScreen extends StatelessWidget {
                 color: Colors.white30,
                 child: Text('Container '),
               ),
-              SizedBox(
-                height: 20.0,
-              ),
+              SizedBox(height: 20.0),
               Container(
                 height: 100.0,
                 width: 100.0,
                 color: Colors.blueGrey,
                 child: Text('Container '),
               ),
-              SizedBox(
-                height: 20.0,
-              ),
+              SizedBox(height: 220.0),
               Container(
                 height: 100.0,
                 width: 100.0,
