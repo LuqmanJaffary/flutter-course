@@ -28,7 +28,7 @@ class SecondScreen extends StatelessWidget {
                 color: Colors.blueGrey,
                 child: Text('Container '),
               ),
-              SizedBox(height: 220.0),
+              SizedBox(height: 240.0),
               Container(
                 height: 100.0,
                 width: 100.0,
