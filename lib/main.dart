@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-// import './second.dart';
-import './login.dart';
+import 'mi_card.dart'; // ✅ Corrected import
+
 void main() {
   runApp(const MyApp());
 }
@@ -8,9 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: LoginPage());
+    return MaterialApp(
+      debugShowCheckedModeBanner: true, // ✅ Hide debug banner
+      home: MiCard(), // ✅ MiCard no longer contains another MaterialApp
+    );
   }
 }
