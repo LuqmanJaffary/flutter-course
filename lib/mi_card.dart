@@ -17,8 +17,19 @@ class MiCard extends StatelessWidget {
             Text(
               'Luqman Jaffary',
               style: TextStyle(
-                fontSize: 40.0,
+                fontFamily: 'Pacifico',
+                fontSize: 35.0,
                 color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'Flutter Developer',
+              style: TextStyle(
+                fontFamily: 'source code pro',
+                fontSize: 20.0,
+                color: Colors.teal.shade100,
+                letterSpacing: 2.5,
                 fontWeight: FontWeight.bold,
               ),
             ),
