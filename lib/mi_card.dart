@@ -17,7 +17,7 @@ class MiCard extends StatelessWidget {
             ),
 
             Text(
-              'Luqman Jaffary',
+              'Luqman Jaffary...',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 35.0,
